@@ -395,14 +395,6 @@ Kraken, Binance, Coinbase - Exchange APIs
 The Rust Community - Amazing performance tooling
 The Python Trading Community - Inspiration and libraries
 
-Support & Community
-
-Documentation: docs.tradingbot.dev
-Issues: GitHub Issues
-Discussions: GitHub Discussions
-Discord: Join our Discord
-Twitter: @TradingBotDev
-
 Roadmap
 Q1 2025
 
