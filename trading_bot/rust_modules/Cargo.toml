@@ -1,0 +1,19 @@
+[workspace]
+members = ["indicators", "orderbook", "backtesting"]
+
+[workspace.dependencies]
+pyo3 = { version = "0.19", features = ["extension-module"] }
+numpy = "0.19"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rayon = "1.7"  # Parallel processing
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1.0"
+thiserror = "1.0"
+ndarray = "0.15"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Trading Bot Team"]
+license = "MIT"

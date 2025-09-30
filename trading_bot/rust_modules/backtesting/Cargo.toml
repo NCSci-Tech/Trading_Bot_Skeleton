@@ -1,0 +1,29 @@
+[package]
+name = "backtesting"
+version = "0.1.0"
+edition = "2021"
+authors = ["Trading Bot Team"]
+description = "High-performance backtesting engine for trading strategies"
+license = "MIT"
+
+[lib]
+name = "backtesting"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+anyhow.workspace = true
+rayon.workspace = true
+thiserror.workspace = true
+
+[dependencies.pyo3]
+workspace = true
+features = ["extension-module"]
+
+[features]
+default = []
+python-extension = ["pyo3/extension-module"]
+parallel = ["rayon"]

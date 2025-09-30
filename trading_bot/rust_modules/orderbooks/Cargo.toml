@@ -1,0 +1,27 @@
+[package]
+name = "orderbook"
+version = "0.1.0"
+edition = "2021"
+authors = ["Trading Bot Team"]
+description = "High-performance order book processing for trading bot"
+license = "MIT"
+
+[lib]
+name = "orderbook"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+
+[dependencies.pyo3]
+workspace = true
+features = ["extension-module"]
+
+[features]
+default = []
+python-extension = ["pyo3/extension-module"]
