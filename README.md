@@ -167,7 +167,7 @@ DB_PASSWORD=your_db_password
 # Notifications
 EMAIL_PASSWORD=your_email_password
 SLACK_WEBHOOK=your_slack_webhook
-🎮 Usage
+Usage
 Paper Trading (Recommended First)
 bash# Run with simulated trades
 python -m src.core.bot --dry-run --log-level INFO
