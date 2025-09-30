@@ -91,7 +91,7 @@ Ethers.js for integration
 
 Quick Start
 bash# 1. Clone the repository
-git clone https://github.com/yourusername/trading-bot.git
+git clone https://github.com/NCSci-Tech/trading-bot.git
 cd trading-bot
 
 # 2. Install dependencies
@@ -130,7 +130,7 @@ Smart contract deployment
 Production deployment
 
 One-Line Install (Ubuntu/Debian)
-bashcurl -sSL https://raw.githubusercontent.com/yourusername/trading-bot/main/install.sh | bash
+bashcurl -sSL https://raw.githubusercontent.com/NCSci-Tech/trading-bot/main/install.sh | bash
 **Configuration**
 Configuration is managed through YAML files and environment variables:
 config/config.yaml
