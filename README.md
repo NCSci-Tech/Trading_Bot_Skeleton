@@ -130,7 +130,7 @@ Smart contract deployment
 Production deployment
 
 One-Line Install (Ubuntu/Debian)
-bashcurl -sSL https://raw.githubusercontent.com/NCSci-Tech/trading-bot/main/install.sh | bash
+bashcurl -sSL https://raw.githubusercontent.com/NCSci-Tech/Trading_Bot_Skeleton/main/install.sh | bash
 **Configuration**
 Configuration is managed through YAML files and environment variables:
 config/config.yaml
