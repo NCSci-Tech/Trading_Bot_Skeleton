@@ -89,7 +89,7 @@ OpenZeppelin for security
 Hardhat for development
 Ethers.js for integration
 
-⚡ Quick Start
+Quick Start
 bash# 1. Clone the repository
 git clone https://github.com/yourusername/trading-bot.git
 cd trading-bot
